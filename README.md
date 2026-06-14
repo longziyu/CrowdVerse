@@ -104,12 +104,11 @@ This reproduction is based on APGCC. We thank the authors of APGCC for making th
 If you find CrowdVerse useful in your research, please cite:
 
 ```bibtex
-@InProceedings{Lai_2026_CVPR,
-  author    = {Lai, Pingrui and Zhou, Yanshan and Xie, Zihao and Yang, Hua},
-  title     = {CrowdVerse: A Bidirectional Reality-Calibrated Benchmark for Crowd Understanding and Simulation},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month     = {June},
-  year      = {2026},
-  pages     = {2197--2207}
+@inproceedings{lai2026crowdverse,
+  title={CrowdVerse: A Bidirectional Reality-Calibrated Benchmark for Crowd Understanding and Simulation},
+  author={Lai, Pingrui and Zhou, Yanshan and Xie, Zihao and Yang, Hua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2197--2207},
+  year={2026}
 }
 ```
