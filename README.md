@@ -13,11 +13,11 @@ The CrowdVerse dataset will include two main types of visual data:
 
 These data components will be released progressively alongside the corresponding code for different research tasks.
 
-## Roadmap / To-Do List
+## To-Do List
 
 - [ ] Release the discrete image dataset.
 - [ ] Release the continuous-frame image dataset.
-- [√] Provide the APGCC crowd-counting reproduction for CrowdVerse.
+- √ Provide the APGCC crowd-counting reproduction for CrowdVerse.
 - [ ] Release trajectory-prediction code and evaluation tools.
 
 ## Crowd Counting: APGCC Reproduction
