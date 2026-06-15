@@ -1,5 +1,9 @@
 # CrowdVerse
 
+<p align="center">
+  <strong>English</strong> | <a href="README_zh-CN.md">简体中文</a>
+</p>
+
 CrowdVerse is a large-scale dataset and research platform designed to support crowd understanding across multiple tasks. The project will be released progressively, including datasets, benchmark code, and task-specific implementations for crowd counting, trajectory prediction, and other crowd-analysis tasks.
 
 The current release focuses on **crowd counting** and provides an APGCC reproduction adapted to CrowdVerse. Additional components, including trajectory-prediction code, will be released in future updates.
