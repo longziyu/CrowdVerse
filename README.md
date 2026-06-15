@@ -6,16 +6,23 @@ The current release focuses on **crowd counting** and provides an APGCC reproduc
 
 ## Dataset
 
-The CrowdVerse dataset will include two main types of visual data:
+The CrowdVerse dataset contains two main types of visual data:
 
-1. **Discrete image data**: independently sampled crowd images for conventional image-based crowd counting.
+1. **Discrete image data**: independently sampled crowd images for conventional image-based crowd counting. This part of the dataset is now available.
 2. **Continuous-frame image data**: temporally continuous frame sequences for studying crowd counting and analysis in dynamic scenes.
 
-These data components will be released progressively alongside the corresponding code for different research tasks.
+### Discrete Image Dataset Download
+
+The discrete image dataset can be downloaded from Baidu Netdisk:
+
+- **Download link:** [https://pan.baidu.com/s/1b09sZCgSutAMEiaQP74-Sg](https://pan.baidu.com/s/1b09sZCgSutAMEiaQP74-Sg)
+- **Extraction code:** `w2v1`
+
+The continuous-frame dataset will be released in a future update alongside the corresponding code for additional research tasks.
 
 ## To-Do List
 
-- [ ] Release the discrete image dataset.
+- √ Release the discrete image dataset.
 - [ ] Release the continuous-frame image dataset.
 - √ Provide the APGCC crowd-counting reproduction for CrowdVerse.
 - [ ] Release trajectory-prediction code and evaluation tools.
@@ -94,10 +101,6 @@ To improve the model's compatibility with CrowdVerse, we made minor adjustments 
 The released repository also includes several preprocessed dataset files for quick reproduction. These files have not been organized into a strict final classification structure, but they can be used directly with the provided scripts.
 
 Alternatively, you can follow the preprocessing procedure in the original APGCC implementation and use `prepare_label.py` to preprocess the dataset yourself.
-
-## Acknowledgements
-
-This reproduction is based on APGCC. We thank the authors of APGCC for making their work available to the research community.
 
 ## Citation
 
